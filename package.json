@@ -1,9 +1,11 @@
 {
   "name": "@alexvyber/strapi-plugin-seo",
-  "version": "1.9.5",
+  "version": "1.9.7",
+  "private": false,
   "description": "Make your Strapi content SEO friendly.",
   "strapi": {
     "name": "seo",
+    
     "displayName": "SEO",
     "description": "Make your Strapi content SEO friendly.",
     "kind": "plugin"
@@ -41,5 +43,8 @@
     "node": ">=12.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT", 
+  "publishConfig": {
+    "access": "public"
+  }
 }
